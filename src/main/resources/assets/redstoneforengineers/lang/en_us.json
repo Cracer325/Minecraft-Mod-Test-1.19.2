@@ -1,5 +1,9 @@
 {
   "item.redstoneforengineers.ziricon": "Ziricon",
-  "item.redstoneforengineers.example_item2": "Example Item 2",
-  "itemGroup.tutorialtab": "Ziricon Test"
+  "item.redstoneforengineers.example_item2": "Raw Ziricon",
+  "itemGroup.tutorialtab": "Ziricon Test",
+  "block.redstoneforengineers.ziricon_block": "Block Of Ziricon",
+  "block.redstoneforengineers.ziricon_ore": "Ziricon Ore",
+  "block.redstoneforengineers.deepslate_ziricon_ore": "Deepslate Ziricon Ore",
+  "item.redstoneforengineers.eight_ball": "Magic Eight Ball"
 }

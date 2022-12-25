@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "redstoneforengineers:ziricon_ore",
+    "redstoneforengineers:ziricon_block",
+    "redstoneforengineers:deepslate_ziricon_ore"
+  ]
+}

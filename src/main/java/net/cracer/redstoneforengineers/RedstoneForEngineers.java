@@ -1,6 +1,7 @@
 package net.cracer.redstoneforengineers;
 
 import com.mojang.logging.LogUtils;
+import net.cracer.redstoneforengineers.block.ModBlocks;
 import net.cracer.redstoneforengineers.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -22,8 +23,14 @@ public class RedstoneForEngineers
     public RedstoneForEngineers()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        /* ------------- */
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        /* ------------- */
+
         modEventBus.addListener(this::commonSetup);
+
 
         MinecraftForge.EVENT_BUS.register(this);
     }
